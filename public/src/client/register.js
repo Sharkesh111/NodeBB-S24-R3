@@ -134,7 +134,7 @@ define('forum/register', [
                     showError(username_notify, '[[error:username-taken]], "${username}suffix"]]');
                 }
 
-                callback();
+                callback(); 
             });
         }
     }
